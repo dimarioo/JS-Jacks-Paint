@@ -1,9 +1,11 @@
 function configureListeners() {
-    let images = // select img elements  
+    let images = document.getElementsByTagName('img') 
 
 
-     for (var i = 0; i < images.length; i++) {        
-        // iterate over images and add mouseover event listeners      
+     for (var i = 0; i < images.length; i++) {     
+        documnent.getElementById[i](document.addEventListener('mouseover', addOpacity))
+        documnent.getElementById[i](document.addEventListener('mouseover', removeOpacity))   
+  
     } 
 }
 
@@ -29,9 +31,8 @@ function getProductInfo(paintColor) {
     let colorName;  
     
     switch (paintColor) {
-        case 'pn1':           
-            // set variables for price and color name and invoke a function to update the price     
-            break;           
+        case 'pn1':   
+            break;          
         case 'pn2':
             // set variables for price and color name and invoke a function to update the price    
             break;            
